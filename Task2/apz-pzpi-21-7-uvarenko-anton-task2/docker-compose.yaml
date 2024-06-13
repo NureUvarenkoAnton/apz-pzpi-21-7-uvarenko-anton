@@ -12,6 +12,7 @@ services:
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: pet_walker
     ports:
       - '3306:3306'
     volumes:
